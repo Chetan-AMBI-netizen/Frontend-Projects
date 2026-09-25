@@ -19,10 +19,34 @@ boxes.forEach((box) => {
             turn0 = false;
 
 
+
         } else{
            box.innerText = "X"; 
            turn0 = true;
         }
+        box.disabled = true;
+        checkwinner();
+
+
     } );
-} );
+});
+ const checkwinner = () => {
+    for( let pattern of winpatterns){
+      let pos1val = boxes[pattern[0]].innerText;
+      let pos2val = boxes[pattern[1]].innerText;
+      let pos3val = boxes[pattern[2]].innerText;
+      if(pos1val != "" && pos2val != "" && pos3val != ""){
+        if(pos1val === pos2val && pos2val === pos3val){
+            console.log("winner");
+            
+        }
+
+      }
+
+    }
+
+    }
+
+    
+
 
