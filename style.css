@@ -39,14 +39,16 @@ body{
     background-color:darkred ;
     border-radius:  1.1rem; ;
     border: none;
+    cursor: pointer;
     
 }
-#New-btn{
+#new-btn{
      padding: 1rem;
     font-size: 1rem;
     background-color:darkred ;
     border-radius:  1.1rem; ;
     border: none;
+    cursor: pointer;
 
 }
 #msg{
@@ -55,8 +57,15 @@ body{
     
 }
 .msg-container{
-    height: 40vmin;
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+
 }
 .hide{
     display: none;
 }
+
