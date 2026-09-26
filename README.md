@@ -38,7 +38,7 @@ tic-tac-toe/
 
 Clone the repository:
 
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/ChetanAmbi-coder/TIC-TAC-TOE.git
 
 
 Open the project folder.
