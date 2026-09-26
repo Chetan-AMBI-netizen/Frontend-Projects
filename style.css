@@ -50,7 +50,13 @@ body{
 
 }
 #msg{
-    color: coral;
+    color: rgb(122, 42, 12);
     font-size: 10vmin;
-    bold;
+    
+}
+.msg-container{
+    height: 40vmin;
+}
+.hide{
+    display: none;
 }
